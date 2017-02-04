@@ -39,7 +39,7 @@ You can view a live demo of this app on iOS and Android mobile devices by downlo
 * Open [ionic.config.json](https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/blob/master/ionic.config.json#L2-L3) in the project root and replace 'YOUR_IONIC_APP_NAME' and 'YOUR_IONIC_APP_ID' with your actual app name and app id created from the previous step.
 * Open [.io-config.json](https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/blob/master/.io-config.json#L1) in the project root and replace 'YOUR_IONIC_APP_ID' and 'YOUR_IONIC_CLOUD_API_KEY' with your actual app id and your Ionic Cloud API key.
 * Open [config.xml](https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/blob/master/config.xml#L2-L3) in the project root and replace 'com.YOUR_ORGANIZATION_NAME.YOUR_IONIC_APP_NAME' with your unique app store identifier. For example, if my organization's name is 'Jedi Coders' and I named my app 'Padawan Trainer', I would replace 'com.YOUR_ORGANIZATION_NAME.YOUR_IONIC_APP_NAME' with 'com.jedicoders.padawantrainer'. Next, replace the second instance of 'YOUR_IONIC_APP_NAME' with your actual Ionic App name. For example, 'padawantrainer'.
-* Finally, open [app.module.ts](https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/blob/master/src/app/app.module.ts#L26) and replace 'YOUR_IONIC_APP_ID' with your actual app id
+* Finally, open [app.module.ts](https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/blob/master/src/app/app.module.ts#L21) and replace 'YOUR_IONIC_APP_ID' with your actual app id
 * Run `ionic serve` in a terminal from the project root to build and launch the app in the browser.
 * Optionally, run `ionic platform add ios` and/or `ionic platform add android` and/or `ionic platform add windows` to allow for development with a particular platform. 
 * **IMPORTANT:** If you have already added one or more of these platforms to the project, you must run `ionic platform update` for each platform that you have already added. For example, if I already added Android platform support, I would run `ionic platform update android`. This is necessary to update platform configuration files with your actual Ionic App Id and Ionic App Name.
@@ -93,13 +93,9 @@ ionic2-cloud-auth-starter-tabs/
 |    |    |    +-- page2.scss                           * Page2 stylesheet
 |    |    |
 |    |    +-- signup/                                   * Signup page
-|    |    |    +-- signup.html                          * SignupPage template
-|    |    |    +-- signup.ts                            * SignupPage code
-|    |    |    +-- signup.scss                          * SignupPage stylesheet
-|    |    |
-|    |    +-- tabs/                                     * Tabs page
-|    |         +-- tabs.html                            * TabsPage template
-|    |         +-- tabs.ts                              * TabsPage code
+|    |         +-- signup.html                          * SignupPage template
+|    |         +-- signup.ts                            * SignupPage code
+|    |         +-- signup.scss                          * SignupPage stylesheet
 |    |
 |    +-- services/                       * Contains all Injectables
 |    |     +-- custom-validators.ts      * CustomValidators code
