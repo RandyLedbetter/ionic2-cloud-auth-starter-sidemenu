@@ -14,6 +14,10 @@ import { ConfirmPasswordResetPage } from "../pages/confirm-password-reset/confir
 import { ForgotPasswordPage } from "../pages/forgot-password/forgot-password";
 import { SignupPage } from "../pages/signup/signup";
 import { LoginPage } from "../pages/login/login";
+import { SettingsPage } from "../pages/settings/settings";
+import { ChangePasswordPage } from "../pages/change-password/change-password";
+import { EditUserDetailsPage } from "../pages/edit-user-details/edit-user-details";
+import { MomentModule } from "angular2-moment";
 
 
 const cloudSettings: CloudSettings = {
@@ -30,6 +34,9 @@ const cloudSettings: CloudSettings = {
     LoginPage,
     SignupPage,
     ForgotPasswordPage,
+    SettingsPage,
+    ChangePasswordPage,
+    EditUserDetailsPage,
     ConfirmPasswordResetPage,
     ErrorMessages
   ],
@@ -38,7 +45,8 @@ const cloudSettings: CloudSettings = {
     CloudModule.forRoot(cloudSettings),
     FormsModule,
     ReactiveFormsModule,
-    BrowserModule
+    BrowserModule,
+    MomentModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -48,7 +56,10 @@ const cloudSettings: CloudSettings = {
     LoginPage,
     SignupPage,
     ForgotPasswordPage,
-    ConfirmPasswordResetPage
+    ConfirmPasswordResetPage,
+    SettingsPage,
+    ChangePasswordPage,
+    EditUserDetailsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},
   Storage,

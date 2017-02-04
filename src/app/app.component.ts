@@ -4,6 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 import { Auth } from "@ionic/cloud-angular";
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
+import { SettingsPage } from '../pages/settings/settings';
 import { LoginPage } from "../pages/login/login";
 
 
@@ -23,7 +24,8 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Page One', component: Page1 },
-      { title: 'Page Two', component: Page2 }
+      { title: 'Page Two', component: Page2 },
+      { title: 'Settings', component: SettingsPage }
     ];
 
   }

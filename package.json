@@ -1,7 +1,7 @@
 {
-  "name": "ionic2-cloud-auth-starter-sidemenu",
+  "name": "ionic2-cloud-auth-starter-sidemenu-settings",
   "author": "Randy Michael Ledbetter",
-  "homepage": "https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu",
+  "homepage": "https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu/tree/sidemenu_settings_page",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -28,6 +28,8 @@
     "sw-toolbox": "3.4.0",
     "ts-md5": "^1.2.0",
     "ng2-validators": "^1.7.0",
+    "angular2-moment": "^1.1.0",
+    "moment": "^2.17.0",
     "zone.js": "0.6.26"
   },
   "devDependencies": {
@@ -43,5 +45,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "An Ionic 2 sidemenu starter app with Ionic Cloud Auth Service integration. The app contains a complete user login/registration flow with password reset functionality via the Ionic Cloud Auth service. Once logged in, the user is taken to a modified version of the default Ionic 2 Side Menu Starter App page Page1. This page has been given two additional buttons: 'Sign Out' and 'Delete Account'."
+  "description": "An Ionic 2 sidemenu starter app with Ionic Cloud Auth Service integration. The app contains a complete user login/registration flow with password reset functionality via the Ionic Cloud Auth service. Once logged in, the user is taken to the default Ionic 2 Side Menu Starter App page Page1. An additional link, 'Settings', has been added to the default template side menu list. Once selected, the user is taken to a fully-functional settings page."
 }
