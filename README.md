@@ -21,7 +21,7 @@ https://github.com/RandyLedbetter/ionic2-cloud-auth-starter-sidemenu.
 
 ## App Preview
 You can view a live demo of this app on iOS and Android mobile devices by downloading the [Ionic View App](http://view.ionic.io) for your desired platform and entering the following code:
-**e2e5393d**
+**7bfc6228**
 
 ##### Sneak Peek
 ![](http://i.imgur.com/IiZPVzk.png)
