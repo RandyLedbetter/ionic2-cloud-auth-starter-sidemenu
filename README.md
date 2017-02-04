@@ -48,7 +48,7 @@ You can view a live demo of this app on iOS and Android mobile devices by downlo
 ## File Structure of App
 
 ```
-ionic2-cloud-auth-starter-tabs/
+ionic2-cloud-auth-starter-sidemenu/
 |-- resources/
 |-- src/
 |    |-- app/
